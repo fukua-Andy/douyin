@@ -47,18 +47,16 @@ html,body{
 }
 .logo img{
     vertical-align: middle;
-/*}
-.page-header div{
-  position: absolute;
-  right:10%;
 }
 
-.page-header div a{
-  width: 100px;
-  height: 25px;
-  color: white;
-  margin-left: 2px;
-}*/
+.right{
+  line-height: 120px;
+  float: right;
+  margin-right: 150px;
+}
+.right a{
+  margin-left:10px;
+}
 .imgclass{
   vertical-align: middle;
   width: 20px;
@@ -98,8 +96,10 @@ html,body{
 }
 .abc:hover{
   transform: scale(3.5);
-  transition: all 1.5s ;
+  transform-origin: right top;
+  transition: all 0.5s ;
 }
 a{
   text-decoration: none;
+  color: white;
 }
