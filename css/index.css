@@ -50,9 +50,11 @@ html,body{
 }
 
 .right{
+  position: absolute;
   line-height: 120px;
   float: right;
-  margin-right: 150px;
+  margin-right: 5%;
+  right: 6%
 }
 .right a{
   margin-left:10px;
@@ -96,8 +98,8 @@ html,body{
 }
 .abc:hover{
   transform: scale(3.5);
-  transform-origin: right top;
   transition: all 0.5s ;
+  transform-origin: left top;
 }
 a{
   text-decoration: none;
